@@ -107,9 +107,10 @@ header {
 }
 
 .logo-img {
-  height: 48px;
-  width: auto;
-  object-fit: contain
+  padding-top: 21px ;
+  height: 300px;
+  width: 300px;
+  object-fit: contain;
 }
 
 .logo-text {
