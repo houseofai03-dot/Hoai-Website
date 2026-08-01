@@ -1767,9 +1767,10 @@ header {
 }
 
 .footer-logo {
-  height: 55px;
+  height: 300px;
   width: auto;
   object-fit: contain;
+  padding-top: 12px;
   margin-bottom: 12px
 }
 
@@ -1793,7 +1794,7 @@ header {
   font-weight: 700;
   letter-spacing: 2px;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   position: relative;
   padding-bottom: 12px
 }
@@ -1815,7 +1816,7 @@ header {
   align-items: flex-start;
   gap: 10px;
   margin-bottom: 12px;
-  font-size: .85rem;
+  font-size: 1rem;
   line-height: 1.65
 }
 
@@ -1832,7 +1833,7 @@ header {
 }
 
 .footer-links ul li a {
-  font-size: .85rem;
+  font-size: 1rem;
   color: rgba(255, 255, 255, .6);
   transition: var(--transition);
   display: flex;
