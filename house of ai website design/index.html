@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HOAI — House of Artificial Intelligence | Smart AI Home Automation</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header" id="site-header">
+    <nav class="navbar">
+      <div class="nav-logo">
+        <a href="index.html">
+          <img src="images/logo-dark.png" alt="HOAI" class="logo-img" />
+          <span class="logo-text">HOAI</span>
+        </a>
+      </div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product.html">Products</a></li>
+        <li class="has-dropdown">
+          <a href="#">Services <span class="arrow">&#9660;</span></a>
+          <ul class="dropdown">
+            <li><a href="smart-hotels.html">Smart Home</a></li>
+            <li><a href="cctv-security.html">CCTV &amp; Security</a></li>
+            <li><a href="home-theater.html">Home Theater</a></li>
+          </ul>
+        </li>
+        <li><a href="team.html">Team</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SLIDER -->
+  <section class="hero-slider" id="home">
+    <div class="slider-wrapper">
+      <div class="slide active">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <span class="tag">HOAI — House of AI</span>
+          <h1>Welcome to</h1>
+          <h2><span>SMART</span> HOME AI</h2>
+          <a href="contact.html" class="btn-hero">Get Started</a>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <span class="tag">AI Automation</span>
+          <h1>Control Your</h1>
+          <h2>AUTO<span>MATION</span></h2>
+          <a href="contact.html" class="btn-hero">Explore Now</a>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <span class="tag">Smart Living</span>
+          <h1>The Future of</h1>
+          <h2><span>LIVING</span> SMART</h2>
+          <a href="contact.html" class="btn-hero">Learn More</a>
+        </div>
+      </div>
+      <div class="slide">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <span class="tag">Voice &amp; App Control</span>
+          <h1>One App</h1>
+          <h2>TOTAL <span>CONTROL</span></h2>
+          <a href="contact.html" class="btn-hero">Contact Us</a>
+        </div>
+      </div>
+    </div>
+    <button class="slider-btn prev" id="sliderPrev">&#10094;</button>
+    <button class="slider-btn next" id="sliderNext">&#10095;</button>
+    <div class="slider-dots">
+      <span class="dot active" data-index="0"></span>
+      <span class="dot" data-index="1"></span>
+      <span class="dot" data-index="2"></span>
+      <span class="dot" data-index="3"></span>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="intro-section">
+    <div class="container">
+      <div class="intro-grid">
+        <div class="intro-images reveal-left">
+          <img src="images/intro1.jpg" alt="Smart Home Interior" class="intro-img-main" />
+          <img src="images/intro2.jpg" alt="HOAI Automation System" class="intro-img-secondary" />
+          <div class="intro-badge">
+            <span>AI</span>
+            <small>Powered Home</small>
+          </div>
+        </div>
+        <div class="intro-text reveal-right">
+          <span class="section-label">About HOAI</span>
+          <h2>Smart AI Based Home Automation for Every Home</h2>
+          <div class="divider"></div>
+          <p>Step into the future of living with <strong>HOAI — House of Artificial Intelligence</strong>. We engineer intelligent ecosystems that transform ordinary homes into self-aware, energy-efficient powerhouses. From voice-controlled lighting to AI-driven security — imagine managing your <em>entire</em> home with a single tap or a simple command.</p>
+          <p>Our mission is simple: <strong>smarter homes, safer families, and simpler lives.</strong> We proudly serve homeowners and businesses across Kadapa, Tirupati, Vizag, Hyderabad, Khammam &amp; Warangal — bringing world-class automation right to your doorstep.</p>
+          <a href="contact.html" class="btn-primary">Learn More &rarr;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="products-section" id="products">
+    <div class="container">
+      <div class="prod-section-header reveal">
+        <span class="section-label">Our Solutions</span>
+        <h2 class="section-title center">Smart AI Solutions for Every Space</h2>
+        <div class="divider center"></div>
+        <p class="section-subtitle center">Complete ecosystem of smart AI devices to automate and secure your home</p>
+      </div>
+      <div class="prod-featured-grid">
+        <a href="#" class="prod-img-card">
+          <div class="prod-img-wrap"><img src="images/lighting-control_1.png" alt="Smart Lighting" /><div class="prod-img-overlay"><span class="prod-tag">Smart Lighting</span></div></div>
+          <div class="prod-img-info"><h3>Smart Lighting</h3><p>Eye Comfort Mode, adjustable brightness, scene creation — app &amp; voice control</p></div>
+        </a>
+        <a href="#" class="prod-img-card">
+          <div class="prod-img-wrap"><img src="images/curtain-control_1.png" alt="Curtain Automation" /><div class="prod-img-overlay"><span class="prod-tag">Motorised</span></div></div>
+          <div class="prod-img-info"><h3>Curtain Automation</h3><p>Silent motorised curtains — open, close or schedule via App, Voice, Remote or Manual</p></div>
+        </a>
+        <a href="#" class="prod-img-card">
+          <div class="prod-img-wrap"><img src="images/smart-ir-remote_1.png" alt="Smart Touch Panel" /><div class="prod-img-overlay"><span class="prod-tag">Touch Panel</span></div></div>
+          <div class="prod-img-info"><h3>Smart Touch Panel</h3><p>90% energy efficient — control via App, Voice (Alexa/Google), Remote &amp; Touch</p></div>
+        </a>
+        <a href="#" class="prod-img-card">
+          <div class="prod-img-wrap"><img src="images/auto-scheduling.png" alt="Smart Locks" /><div class="prod-img-overlay"><span class="prod-tag">7-in-1 Lock</span></div></div>
+          <div class="prod-img-info"><h3>Smart Locks</h3><p>7 unlock methods: Face, Finger, OTP, Pin, Key, RFID &amp; Mobile App</p></div>
+        </a>
+        <a href="#" class="prod-img-card">
+          <div class="prod-img-wrap"><img src="images/location-settings.png" alt="Video Door Bell" /><div class="prod-img-overlay"><span class="prod-tag">Video Door</span></div></div>
+          <div class="prod-img-info"><h3>Video Door Bell</h3><p>HD video calling, two-way audio, wide-angle camera &amp; instant mobile alerts</p></div>
+        </a>
+        <a href="#" class="prod-img-card">
+          <div class="prod-img-wrap"><img src="images/voice-control.png" alt="Voice Control" /><div class="prod-img-overlay"><span class="prod-tag">Voice AI</span></div></div>
+          <div class="prod-img-info"><h3>Voice Control</h3><p>Works with Google Assistant &amp; Amazon Alexa — hands-free home control</p></div>
+        </a>
+        <a href="cctv-security.html" class="prod-img-card">
+          <div class="prod-img-wrap"><img src="images/dome-camera_2.jpg" alt="CCTV Surveillance" /><div class="prod-img-overlay"><span class="prod-tag">CP PLUS</span></div></div>
+          <div class="prod-img-info"><h3>CCTV Surveillance</h3><p>Dome, Bullet, IP &amp; Wireless cameras — HD recording, night vision &amp; motion alerts</p></div>
+        </a>
+        <a href="cctv-security.html" class="prod-img-card">
+          <div class="prod-img-wrap"><img src="images/video-doorbell.webp" alt="Gate Automation" /><div class="prod-img-overlay"><span class="prod-tag">Gate Auto</span></div></div>
+          <div class="prod-img-info"><h3>Gate Automation</h3><p>Automatic open &amp; close, remote &amp; mobile control, safety sensors &amp; auto locking</p></div>
+        </a>
+        <a href="home-theater.html" class="prod-img-card">
+          <div class="prod-img-wrap"><img src="images/smart-lights_1.jpeg" alt="Home Theatre" /><div class="prod-img-overlay"><span class="prod-tag">Theatre</span></div></div>
+          <div class="prod-img-info"><h3>Home Theatre</h3><p>Control lights, curtains, sound &amp; display with single touch or voice command</p></div>
+        </a>
+        <a href="#" class="prod-img-card">
+          <div class="prod-img-wrap"><img src="images/staircase-sensor_1.png" alt="Staircase Sensor" /><div class="prod-img-overlay"><span class="prod-tag">Auto Sensor</span></div></div>
+          <div class="prod-img-info"><h3>Staircase Sensor</h3><p>Motion-activated staircase lighting — lights up automatically as you walk, saves energy &amp; prevents accidents</p></div>
+        </a>
+        <a href="#" class="prod-img-card">
+          <div class="prod-img-wrap"><img src="images/water-automation_1.png" alt="Water Automation" /><div class="prod-img-overlay"><span class="prod-tag">Smart Water</span></div></div>
+          <div class="prod-img-info"><h3>Water Automation</h3><p>Smart pump control &amp; tank level monitoring — prevents overflow, dry-run protection &amp; mobile alerts</p></div>
+        </a>
+        <a href="#" class="prod-img-card">
+          <div class="prod-img-wrap"><img src="images/motion-sensors_1.png" alt="Motion Sensors" /><div class="prod-img-overlay"><span class="prod-tag">PIR&nbsp;Sensor</span></div></div>
+          <div class="prod-img-info"><h3>Motion Sensors</h3><p>Detect movement to trigger lights, cameras &amp; alarms — ideal for security &amp; energy saving</p></div>
+        </a>
+        <a href="smart-hotels.html" class="prod-img-card">
+          <div class="prod-img-wrap"><img src="images/smart-hotel_1.jpg" alt="Smart Hotel" /><div class="prod-img-overlay"><span class="prod-tag">Hospitality</span></div></div>
+          <div class="prod-img-info"><h3>Smart Hotel</h3><p>Full guest room automation — key card access, room control panels, HVAC &amp; lighting scenes</p></div>
+        </a>
+        <a href="#" class="prod-img-card">
+          <div class="prod-img-wrap"><img src="images/energy-monitor_1.png" alt="Energy Monitor" /><div class="prod-img-overlay"><span class="prod-tag">Energy AI</span></div></div>
+          <div class="prod-img-info"><h3>Energy Monitor</h3><p>Real-time power consumption tracking — identify energy hogs, reduce bills &amp; get smart usage alerts</p></div>
+        </a>
+        <a href="#" class="prod-img-card">
+          <div class="prod-img-wrap"><img src="images/smart-fan_1.png" alt="Fan Automation" /><div class="prod-img-overlay"><span class="prod-tag">Fan Control</span></div></div>
+          <div class="prod-img-info"><h3>Fan Automation</h3><p>Smart speed control &amp; auto scheduling for fans — app, voice &amp; sensor-based operation</p></div>
+        </a>
+        <a href="#" class="prod-img-card">
+          <div class="prod-img-wrap"><img src="images/smart-ac_1.png" alt="AC Automation" /><div class="prod-img-overlay"><span class="prod-tag">Smart AC</span></div></div>
+          <div class="prod-img-info"><h3>AC Automation</h3><p>IR-based smart AC control — auto temperature scheduling, voice control &amp; energy optimization</p></div>
+        </a>
+        <a href="#" class="prod-img-card">
+          <div class="prod-img-wrap"><img src="images/smart-intercom_1.png" alt="Smart Intercom" /><div class="prod-img-overlay"><span class="prod-tag">Intercom</span></div></div>
+          <div class="prod-img-info"><h3>Smart Intercom</h3><p>HD video intercom for villas &amp; apartments — two-way audio, remote door unlock &amp; visitor alerts on your phone</p></div>
+        </a>
+        <a href="#" class="prod-img-card">
+          <div class="prod-img-wrap"><img src="images/outdoor-lighting_1.png" alt="Outdoor Lighting" /><div class="prod-img-overlay"><span class="prod-tag">Outdoor</span></div></div>
+          <div class="prod-img-info"><h3>Outdoor Lighting</h3><p>Auto-scheduled garden, pathway &amp; facade lighting — sensor-triggered, weather-aware &amp; energy efficient</p></div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section-alt">
+    <div class="container">
+      <div class="section-header-center reveal">
+        <span class="section-label">Testimonials</span>
+        <h2 class="section-title center">What Our Customers Say</h2>
+        <div class="divider center"></div>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <p>HOAI turned our living room into a movie lover's paradise. The AI control — lights, curtains, sound all at once — is beyond our expectations!</p>
+          <div class="testi-author">
+            <img src="images/avatar_6.jpg" alt="Ramesh K." />
+            <div><strong>Ramesh K.</strong><span>Happy Customer, Hyderabad</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <p>The acoustic treatment and smart integration they did in our media room is phenomenal. One voice command controls everything. Highly recommend!</p>
+          <div class="testi-author">
+            <img src="images/avatar_6.jpg" alt="Pradeep M." />
+            <div><strong>Pradeep M.</strong><span>Happy Customer, Vizag</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <p>Professional team, top-quality equipment, flawless installation. My home theatre rivals any commercial cinema. Best investment I've made!</p>
+          <div class="testi-author">
+            <img src="images/avatar_6.jpg" alt="Kavitha S." />
+            <div><strong>Kavitha S.</strong><span>Happy Customer, Tirupati</span></div>
+          </div>
+        </div>
+        <div class="testimonial-card reveal">
+          <p>The HOAI app control is seamless. One tap controls lights, curtains, and sound together. No more juggling remotes — absolutely brilliant!</p>
+          <div class="testi-author">
+            <img src="images/avatar_6.jpg" alt="Arun T." />
+            <div><strong>Arun T.</strong><span>Happy Customer, Kadapa</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="section-cta-center">
+        <a href="#contact" class="btn-primary">Start Your Project Today &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section-navy" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <span class="section-label">Contact Us</span>
+          <h2>Let's Make Your Home Smarter</h2>
+          <div class="divider"></div>
+          <p>We're here to help you transform your home with AI-powered automation. Get in touch for a free consultation and quote. Serving Kadapa, Tirupati, Vizag, Hyderabad, Khammam &amp; Warangal.</p>
+          <div class="contact-detail"><span class="ico">📞</span><a href="tel:+919390024890">+91 93900 24890</a></div>
+          <div class="contact-detail"><span class="ico">📧</span><a href="mailto:houseofai03@gmail.com">houseofai03@gmail.com</a></div>
+          <div class="contact-detail"><span class="ico">🌐</span><a href="http://www.hoai.co.in" target="_blank">www.hoai.co.in</a></div>
+          <div class="contact-detail"><span class="ico">📍</span>Kadapa, Tirupati, Vizag, Hyderabad, Khammam, Warangal</div>
+          <div class="contact-cta-btns">
+            <a href="https://wa.me/919390024890" target="_blank" class="btn-whatsapp">&#x1F4AC; WhatsApp Us</a>
+            <a href="tel:+919390024890" class="btn-call">📞 Call Now</a>
+          </div>
+        </div>
+        <div class="reveal-right">
+          <div class="contact-form">
+            <h3>Get a Free Consultation</h3>
+            <form id="contactForm">
+              <div class="form-group"><label>Full Name</label><input type="text" placeholder="Your full name" required /></div>
+              <div class="form-group"><label>Phone Number</label><input type="tel" placeholder="+91 XXXXXXXXXX" required /></div>
+              <div class="form-group"><label>Email Address</label><input type="email" placeholder="your@email.com" /></div>
+              <div class="form-group">
+                <label>Service Interested In</label>
+                <select>
+                  <option value="" disabled selected>Select a service...</option>
+                  <option>Smart Touch Panel</option>
+                  <option>Smart Lighting</option>
+                  <option>Smart Locks</option>
+                  <option>Video Door Bell</option>
+                  <option>CCTV Surveillance</option>
+                  <option>Gate Automation</option>
+                  <option>Curtain Automation</option>
+                  <option>Staircase Sensor</option>
+                  <option>Water Automation</option>
+                  <option>Home Theatre</option>
+                  <option>Motion Sensors</option>
+                </select>
+              </div>
+              <div class="form-group"><label>Message</label><textarea placeholder="Tell us about your project and requirements..."></textarea></div>
+              <button type="submit" class="btn-submit">Send Message &rarr;</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo-footer.png" alt="HOAI" class="footer-logo" />
+          <span class="footer-logo-text">HOAI</span>
+          <p class="footer-tagline">House of Artificial Intelligence — Making Every Home Smarter</p>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <div class="footer-contact-item"><span class="ico">🏢</span>HOAI — House of Artificial Intelligence</div>
+          <div class="footer-contact-item"><span class="ico">📞</span><a href="tel:+919390024890">+91 93900 24890</a></div>
+          <div class="footer-contact-item"><span class="ico">📧</span><a href="mailto:houseofai03@gmail.com">houseofai03@gmail.com</a></div>
+          <div class="footer-contact-item"><span class="ico">🌐</span><a href="http://www.hoai.co.in" target="_blank">www.hoai.co.in</a></div>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="smart-hotels.html">Smart Home</a></li>
+            <li><a href="cctv-security.html">CCTV &amp; Security</a></li>
+            <li><a href="home-theater.html">Home Theater</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Copyright &copy; 2025 HOAI — House of Artificial Intelligence. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="#" title="Instagram">&#x1F4F7;</a>
+          <a href="#" title="YouTube">&#x25B6;</a>
+          <a href="https://wa.me/919390024890" title="WhatsApp">&#x1F4AC;</a>
+          <a href="#" title="Twitter">&#x1D54F;</a>
+        </div>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/919390024890" class="whatsapp-btn" target="_blank" title="Chat on WhatsApp">&#x1F4AC;</a>
+  <button class="scroll-top" title="Back to top">&#8679;</button>
+
+  <script src="js/nav.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/forms.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

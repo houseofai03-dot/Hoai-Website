@@ -1,0 +1,1294 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Products — HOAI | House of Artificial Intelligence</title>
+    <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/pages.css" />
+  <link rel="stylesheet" href="css/product.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="site-header" id="site-header">
+        <nav class="navbar">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="images/logo-dark.png" alt="HOAI" class="logo-img"
+                        onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                    <span class="logo-text">HOAI</span>
+                </a>
+            </div>
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle menu"><span></span><span></span><span></span></button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li class="has-dropdown">
+                    <a href="#">Services <span class="arrow">&#9660;</span></a>
+                    <ul class="dropdown">
+                        <li><a href="smart-hotels.html">Smart Home</a></li>
+                        <li><a href="cctv-security.html">CCTV &amp; Security</a></li>
+                        <li><a href="home-theater.html">Home Theater</a></li>
+                    </ul>
+                </li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <div class="page-hero">
+        <h1>Our <span>Products</span></h1>
+        <p>18 AI-powered smart solutions — click any product in the sidebar to explore</p>
+        <div class="breadcrumb"><a href="index.html">Home</a><span>›</span><span>Products</span></div>
+    </div>
+
+    <div class="products-page-wrap">
+
+        <!-- SIDEBAR -->
+        <aside class="prod-sidebar">
+            <div class="sidebar-search-wrap">
+                <input type="text" id="sidebarSearch" placeholder="🔍  Search products…" autocomplete="off" />
+            </div>
+            <div class="sidebar-label">All 18 Products</div>
+            <ul class="sidebar-nav" id="sidebarNav">
+                <li><button class="sidebar-btn active" data-target="p1"><span class="sicon">💡</span>Smart Lighting<span
+                            class="snum">01</span></button></li>
+                <li><button class="sidebar-btn" data-target="p2"><span class="sicon">🪟</span>Curtain Automation<span
+                            class="snum">02</span></button></li>
+                <li><button class="sidebar-btn" data-target="p3"><span class="sicon">🖐</span>Smart Touch Panel<span
+                            class="snum">03</span></button></li>
+                <li><button class="sidebar-btn" data-target="p4"><span class="sicon">🔐</span>Smart Locks<span
+                            class="snum">04</span></button></li>
+                <li><button class="sidebar-btn" data-target="p5"><span class="sicon">🔔</span>Video Door Bell<span
+                            class="snum">05</span></button></li>
+                <li><button class="sidebar-btn" data-target="p6"><span class="sicon">🎙</span>Voice Control<span
+                            class="snum">06</span></button></li>
+                <li><button class="sidebar-btn" data-target="p7"><span class="sicon">📷</span>CCTV Surveillance<span
+                            class="snum">07</span></button></li>
+                <li><button class="sidebar-btn" data-target="p8"><span class="sicon">🚪</span>Gate Automation<span
+                            class="snum">08</span></button></li>
+                <li><button class="sidebar-btn" data-target="p9"><span class="sicon">🎬</span>Home Theatre<span
+                            class="snum">09</span></button></li>
+                <li><button class="sidebar-btn" data-target="p10"><span class="sicon">🚶</span>Staircase Sensor<span
+                            class="snum">10</span></button></li>
+                <li><button class="sidebar-btn" data-target="p11"><span class="sicon">💧</span>Water Automation<span
+                            class="snum">11</span></button></li>
+                <li><button class="sidebar-btn" data-target="p12"><span class="sicon">📡</span>Motion Sensors<span
+                            class="snum">12</span></button></li>
+                <li><button class="sidebar-btn" data-target="p13"><span class="sicon">🏨</span>Smart Hotel<span
+                            class="snum">13</span></button></li>
+                <li><button class="sidebar-btn" data-target="p14"><span class="sicon">⚡</span>Energy Monitor<span
+                            class="snum">14</span></button></li>
+                <li><button class="sidebar-btn" data-target="p15"><span class="sicon">🌀</span>Fan Automation<span
+                            class="snum">15</span></button></li>
+                <li><button class="sidebar-btn" data-target="p16"><span class="sicon">❄️</span>AC Automation<span
+                            class="snum">16</span></button></li>
+                <li><button class="sidebar-btn" data-target="p17"><span class="sicon">📞</span>Smart Intercom<span
+                            class="snum">17</span></button></li>
+                <li><button class="sidebar-btn" data-target="p18"><span class="sicon">🌿</span>Outdoor Lighting<span
+                            class="snum">18</span></button></li>
+            </ul>
+        </aside>
+
+        <!-- MAIN -->
+        <main class="prod-main" id="prodMain">
+
+            <!-- ══════════════════════════════════════════
+         P1 — SMART LIGHTING
+    ══════════════════════════════════════════ -->
+            <div class="prod-panel active" id="p1">
+                <div class="panel-top">
+                    <span class="p-label">Smart Lighting</span>
+                    <h2>Intelligent Light for<br>Every Mood &amp; Moment</h2>
+                    <div class="p-divider"></div>
+                    <p class="p-lead">HOAI Smart Lighting adapts to your lifestyle with AI-driven scenes, voice control
+                        and Eye Comfort technology — transforming how you experience light at home.</p>
+                </div>
+
+                <!-- ROW 1: Text LEFT · Image RIGHT -->
+                <div class="prod-row">
+                    <div class="pr-text">
+                        <span class="pr-tag">Overview</span>
+                        <h3>App &amp; Voice Controlled Lighting</h3>
+                        <p>Control every light in your home from a single app or with your voice. Set scenes for movies,
+                            sleep, parties or work — the system remembers your preferences and adapts automatically.</p>
+                        <p>Eye Comfort Mode shifts colour temperature with the sun, reducing eye strain and improving
+                            sleep quality naturally throughout the day.</p>
+                        <div class="pr-stats">
+                            <div class="pr-stat"><strong>60%</strong><span>Energy Save</span></div>
+                            <div class="pr-stat"><strong>100%</strong><span>Dimmable</span></div>
+                            <div class="pr-stat"><strong>4+</strong><span>Scenes</span></div>
+                        </div>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/lighting-control_2.png" alt="Smart Lighting Control" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/E60000/ffffff?text=Lighting+Control" Alt="Smart Lighting Control" Loading="Lazy'"this.src='https://placehold.co/700x400/2C363F/E60000?text=Smart+Lighting'>
+                        <div class="pr-img-badge">App Control</div>
+                        <div class="pr-img-cap">App &amp; Touch Controlled Smart Lighting</div>
+                    </div>
+                </div>
+
+                <!-- ROW 2: Image LEFT · Text RIGHT -->
+                <div class="prod-row reverse">
+                    <div class="pr-text">
+                        <span class="pr-tag">Key Features</span>
+                        <h3>Eye Comfort &amp; Scene Automation</h3>
+                        <p>From sunrise warm white to cool daylight for work — HOAI lighting adjusts automatically.
+                            Create custom scenes that trigger with a single voice command or a tap.</p>
+                        <ul>
+                            <li>Eye Comfort Mode — auto colour temperature shift</li>
+                            <li>Adjustable brightness from 1% to 100%</li>
+                            <li>Scene creation — Movie, Sleep, Party, Work</li>
+                            <li>Voice control — Google Assistant &amp; Alexa</li>
+                            <li>Schedule &amp; timer automation</li>
+                            <li>Compatible with all standard light fittings</li>
+                        </ul>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/smart-lights_3.jpeg" alt="Ambient Scene Lighting" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Smart+Lights" Alt="Ambient Scene Lighting" Loading="Lazy'"this.src='https://placehold.co/700x400/1e2a32/ffffff?text=Ambient+Scene'>
+                        <div class="pr-img-badge">Scene Mode</div>
+                        <div class="pr-img-cap">Ambient Scene Creation — Living Room</div>
+                    </div>
+                </div>
+
+                <div class="panel-cta">
+                    <p>Available for homes, offices &amp; hospitality across Kadapa, Tirupati, Vizag &amp; Hyderabad.
+                    </p>
+                    <a href="contact.html" class="btn-enquire">Get Free Quote →</a>
+                </div>
+            </div>
+
+            <!-- ══════════════════════════════════════════
+         P2 — CURTAIN AUTOMATION
+    ══════════════════════════════════════════ -->
+            <div class="prod-panel" id="p2">
+                <div class="panel-top">
+                    <span class="p-label">Curtain Automation</span>
+                    <h2>Motorised Curtains for<br>Silent, Effortless Living</h2>
+                    <div class="p-divider"></div>
+                    <p class="p-lead">Open or close your curtains with a tap, a voice command, or automatically at
+                        sunrise and sunset — HOAI's silent motors deliver luxury living at the touch of a button.</p>
+                </div>
+                <div class="prod-row">
+                    <div class="pr-text">
+                        <span class="pr-tag">Overview</span>
+                        <h3>Silent Motorised Track System</h3>
+                        <p>HOAI motorised curtains use ultra-quiet motors on precision aluminium tracks. Schedule them
+                            to open with sunrise and close at sunset automatically — or control them from anywhere via
+                            app.</p>
+                        <p>Compatible with both sheer and blackout fabrics, custom tracks fit any window size in your
+                            home.</p>
+                        <div class="pr-stats">
+                            <div class="pr-stat"><strong>dB0</strong><span>Silent</span></div>
+                            <div class="pr-stat"><strong>4</strong><span>Control Ways</span></div>
+                            <div class="pr-stat"><strong>Any</strong><span>Window Size</span></div>
+                        </div>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/curtain-control_2.png" alt="Motorised Curtain" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/E60000/ffffff?text=Curtain+Control" Alt="Motorised Curtain" Loading="Lazy'"this.src='https://placehold.co/700x400/2C363F/E60000?text=Curtain+Motor'>
+                        <div class="pr-img-badge">Motorised</div>
+                        <div class="pr-img-cap">Silent Motorised Curtain Track</div>
+                    </div>
+                </div>
+                <div class="prod-row reverse">
+                    <div class="pr-text">
+                        <span class="pr-tag">Key Features</span>
+                        <h3>App, Voice, Remote &amp; Manual Control</h3>
+                        <p>Whether you're in bed, on the sofa or halfway around the world — your curtains obey. Pair
+                            them with smart lighting scenes for a complete ambience transformation.</p>
+                        <ul>
+                            <li>Ultra-silent motor — zero noise</li>
+                            <li>Control via App, Voice, Remote or Manual pull</li>
+                            <li>Sunrise/Sunset auto schedule</li>
+                            <li>Compatible with sheer &amp; blackout curtains</li>
+                            <li>Works with Google Home &amp; Amazon Alexa</li>
+                            <li>Scene integration with smart lighting</li>
+                            <li>Power backup support available</li>
+                        </ul>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/curtain-app.png" alt="Curtain App Control" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/E60000/ffffff?text=Curtain+App" Alt="Curtain App Control" Loading="Lazy'"this.src='https://placehold.co/700x400/1e2a32/ffffff?text=App+Control'>
+                        <div class="pr-img-badge">Voice Ready</div>
+                        <div class="pr-img-cap">App &amp; Voice Controlled — Bedroom</div>
+                    </div>
+                </div>
+                <div class="panel-cta">
+                    <p>Ideal for bedrooms, living rooms, home theatres and luxury hotel rooms.</p>
+                    <a href="contact.html" class="btn-enquire">Get Free Quote →</a>
+                </div>
+            </div>
+
+            <!-- ══════════════════════════════════════════
+         P3 — SMART TOUCH PANEL
+    ══════════════════════════════════════════ -->
+            <div class="prod-panel" id="p3">
+                <div class="panel-top">
+                    <span class="p-label">Smart Touch Panel</span>
+                    <h2>Replace Old Switches with<br>Elegant Smart Panels</h2>
+                    <div class="p-divider"></div>
+                    <p class="p-lead">HOAI's glass-finish smart touch panels replace ordinary switches with AI-powered
+                        elegance — saving up to 90% standby energy while giving you total smart home control.</p>
+                </div>
+                <div class="prod-row">
+                    <div class="pr-text">
+                        <span class="pr-tag">Overview</span>
+                        <h3>Premium Glass-Finish Touch Switch</h3>
+                        <p>Available in 1, 2, 3 and 4-gang configurations, HOAI touch panels fit any standard modular
+                            switch box — no new wiring required in most cases. LED backlit for easy use at night.</p>
+                        <p>The sleek glass finish complements modern interiors while hiding all the powerful technology
+                            inside.</p>
+                        <div class="pr-stats">
+                            <div class="pr-stat"><strong>90%</strong><span>Energy Save</span></div>
+                            <div class="pr-stat"><strong>4</strong><span>Gang Options</span></div>
+                            <div class="pr-stat"><strong>Zero</strong><span>New Wiring</span></div>
+                        </div>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/smart-ir-remote_2.png" alt="Smart Touch Panel" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Smart+Ir+Remote" Alt="Smart Touch Panel" Loading="Lazy'"this.src='https://placehold.co/700x400/2C363F/E60000?text=Touch+Panel'>
+                        <div class="pr-img-badge">Touch Control</div>
+                        <div class="pr-img-cap">Premium Glass Smart Touch Switch Panel</div>
+                    </div>
+                </div>
+                <div class="prod-row reverse">
+                    <div class="pr-text">
+                        <span class="pr-tag">Key Features</span>
+                        <h3>App, Voice, Remote &amp; Touch — 4-in-1</h3>
+                        <p>Control the same switch four ways — tap it, ask Alexa, use the app from your phone, or use a
+                            physical remote. Child lock prevents accidental presses by little hands.</p>
+                        <ul>
+                            <li>Premium capacitive glass-finish surface</li>
+                            <li>Control via App, Voice (Alexa/Google), Remote &amp; Touch</li>
+                            <li>90% energy-efficient standby mode</li>
+                            <li>LED backlit — visible in the dark</li>
+                            <li>Child lock functionality</li>
+                            <li>Fits standard modular switch boxes</li>
+                            <li>Retrofit — zero wiring change needed</li>
+                        </ul>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/smart-ir-retrofit.png" alt="Panel Retrofit" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Smart+Ir+Retrofit" Alt="Panel Retrofit" Loading="Lazy'"this.src='https://placehold.co/700x400/1e2a32/ffffff?text=Retrofit+Install'>
+                        <div class="pr-img-badge">Retrofit</div>
+                        <div class="pr-img-cap">Direct Replacement — No New Wiring</div>
+                    </div>
+                </div>
+                <div class="panel-cta">
+                    <p>Upgrade your entire home — no electrician needed for most retrofit installations.</p>
+                    <a href="contact.html" class="btn-enquire">Get Free Quote →</a>
+                </div>
+            </div>
+
+            <!-- ══════════════════════════════════════════
+         P4 — SMART LOCKS
+    ══════════════════════════════════════════ -->
+            <div class="prod-panel" id="p4">
+                <div class="panel-top">
+                    <span class="p-label">Smart Locks</span>
+                    <h2>7 Ways to Enter —<br>Zero Keys to Lose</h2>
+                    <div class="p-divider"></div>
+                    <p class="p-lead">HOAI Smart Locks offer 7 unlock methods — from face recognition and fingerprint to
+                        OTP for guests — keeping your home secure while making entry effortless for the whole family.
+                    </p>
+                </div>
+                <div class="prod-row">
+                    <div class="pr-text">
+                        <span class="pr-tag">Overview</span>
+                        <h3>Face Recognition &amp; 7-in-1 Entry</h3>
+                        <p>The most advanced door lock for Indian homes — biometric face recognition identifies family
+                            members in under a second. Set temporary OTPs for domestic helpers, delivery personnel or
+                            guests.</p>
+                        <p>Every access attempt is logged with a timestamp and pushed to your phone as a notification.
+                        </p>
+                        <div class="pr-stats">
+                            <div class="pr-stat"><strong>7</strong><span>Unlock Ways</span></div>
+                            <div class="pr-stat"><strong>&lt;1s</strong><span>Face Unlock</span></div>
+                            <div class="pr-stat"><strong>100%</strong><span>Offline Ready</span></div>
+                        </div>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/smart-lock-face.png" alt="Smart Lock Face ID" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Smart+Lock+Face" Alt="Smart Lock Face Id" Loading="Lazy'"this.src='https://placehold.co/700x400/2C363F/E60000?text=Face+Recognition'>
+                        <div class="pr-img-badge">7-in-1 Lock</div>
+                        <div class="pr-img-cap">Face Recognition — Sub-Second Entry</div>
+                    </div>
+                </div>
+                <div class="prod-row reverse">
+                    <div class="pr-text">
+                        <span class="pr-tag">Key Features</span>
+                        <h3>Auto Lock, Alerts &amp; Guest Access</h3>
+                        <p>Set your door to auto-lock after 30 seconds. Get tamper alerts if someone tries to force the
+                            lock. Issue time-limited OTPs that expire automatically for visitor access.</p>
+                        <ul>
+                            <li>7 unlock: Face, Finger, OTP, PIN, Key, RFID &amp; App</li>
+                            <li>Real-time access log &amp; mobile notifications</li>
+                            <li>Auto-lock with adjustable delay</li>
+                            <li>Tamper &amp; low battery alerts</li>
+                            <li>Guest OTP with custom expiry</li>
+                            <li>Works completely offline</li>
+                            <li>Anti-peep password masking</li>
+                        </ul>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/smart-lock-app.png" alt="Smart Lock App" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/E60000/ffffff?text=Smart+Lock+App" Alt="Smart Lock App" Loading="Lazy'"this.src='https://placehold.co/700x400/1e2a32/ffffff?text=Lock+App+Control'>
+                        <div class="pr-img-badge">Auto Lock</div>
+                        <div class="pr-img-cap">Access Log &amp; Guest OTP via App</div>
+                    </div>
+                </div>
+                <div class="panel-cta">
+                    <p>Ideal for homes, flats, offices and rental properties. Supports unlimited user profiles.</p>
+                    <a href="contact.html" class="btn-enquire">Get Free Quote →</a>
+                </div>
+            </div>
+
+            <!-- ══════════════════════════════════════════
+         P5 — VIDEO DOOR BELL
+    ══════════════════════════════════════════ -->
+            <div class="prod-panel" id="p5">
+                <div class="panel-top">
+                    <span class="p-label">Video Door Bell</span>
+                    <h2>See &amp; Speak to Visitors<br>From Anywhere</h2>
+                    <div class="p-divider"></div>
+                    <p class="p-lead">HOAI Video Door Bell delivers 1080p HD video, two-way audio and instant alerts —
+                        so you always know who's at the door, whether you're in the kitchen or another country.</p>
+                </div>
+                <div class="prod-row">
+                    <div class="pr-text">
+                        <span class="pr-tag">Overview</span>
+                        <h3>1080p HD Camera with Night Vision</h3>
+                        <p>The wide-angle lens captures your entire entrance — from the gate to the doorstep. Motion
+                            detection alerts you before the visitor even rings the bell, giving you more time to
+                            respond.</p>
+                        <p>Night vision up to 5 metres ensures crystal-clear footage even at midnight.</p>
+                        <div class="pr-stats">
+                            <div class="pr-stat"><strong>1080p</strong><span>HD Video</span></div>
+                            <div class="pr-stat"><strong>5m</strong><span>Night Vision</span></div>
+                            <div class="pr-stat"><strong>180°</strong><span>Wide Angle</span></div>
+                        </div>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/video-doorbell-cam.png" alt="Video Doorbell Camera" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Video+Doorbell+Cam" Alt="Video Doorbell Camera" Loading="Lazy'"this.src='https://placehold.co/700x400/2C363F/E60000?text=Video+Doorbell'>
+                        <div class="pr-img-badge">HD Video</div>
+                        <div class="pr-img-cap">Wide-Angle 1080p HD Camera View</div>
+                    </div>
+                </div>
+                <div class="prod-row reverse">
+                    <div class="pr-text">
+                        <span class="pr-tag">Key Features</span>
+                        <h3>Two-Way Audio &amp; Remote Unlock</h3>
+                        <p>Speak to delivery staff while working in your office. Unlock the door for family members
+                            remotely. All footage is stored on cloud and local SD — review anytime.</p>
+                        <ul>
+                            <li>1080p Full HD with wide-angle lens</li>
+                            <li>Two-way audio — speak from anywhere</li>
+                            <li>Instant mobile push notifications</li>
+                            <li>Night vision up to 5 metres</li>
+                            <li>Motion detection before ring</li>
+                            <li>Cloud &amp; local SD card storage</li>
+                            <li>Pairs with smart lock for remote unlock</li>
+                        </ul>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/video-doorbell-app.png" alt="Doorbell App View" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/E60000/ffffff?text=Video+Doorbell+App" Alt="Doorbell App View" Loading="Lazy'"this.src='https://placehold.co/700x400/1e2a32/ffffff?text=App+Live+View'>
+                        <div class="pr-img-badge">Live View</div>
+                        <div class="pr-img-cap">Live View &amp; Two-Way Talk on App</div>
+                    </div>
+                </div>
+                <div class="panel-cta">
+                    <p>Pairs with HOAI Smart Locks for a complete door security solution.</p>
+                    <a href="contact.html" class="btn-enquire">Get Free Quote →</a>
+                </div>
+            </div>
+
+            <!-- ══════════════════════════════════════════
+         P6 — VOICE CONTROL
+    ══════════════════════════════════════════ -->
+            <div class="prod-panel" id="p6">
+                <div class="panel-top">
+                    <span class="p-label">Voice Control</span>
+                    <h2>Control Your Entire Home<br>With Just Your Voice</h2>
+                    <div class="p-divider"></div>
+                    <p class="p-lead">HOAI is fully integrated with Google Assistant and Amazon Alexa — giving you
+                        complete hands-free control of every device in your home with simple voice commands in Hindi or
+                        English.</p>
+                </div>
+                <div class="prod-row">
+                    <div class="pr-text">
+                        <span class="pr-tag">Overview</span>
+                        <h3>Google Assistant &amp; Alexa Integration</h3>
+                        <p>Say "Hey Google, Good Night" and watch your home respond — lights dim, curtains close, AC
+                            sets to sleep temperature, and the door auto-locks. All from one voice command.</p>
+                        <p>Works with Google Nest Hub, Amazon Echo Dot and any Alexa or Google-enabled speaker.</p>
+                        <div class="pr-stats">
+                            <div class="pr-stat"><strong>2</strong><span>Platforms</span></div>
+                            <div class="pr-stat"><strong>2</strong><span>Languages</span></div>
+                            <div class="pr-stat"><strong>∞</strong><span>Routines</span></div>
+                        </div>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/voice-assistant.png" alt="Voice Control" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Voice+Assistant" Alt="Voice Control" Loading="Lazy'"this.src='https://placehold.co/700x400/2C363F/E60000?text=Voice+Control'>
+                        <div class="pr-img-badge">Voice AI</div>
+                        <div class="pr-img-cap">Google Assistant &amp; Alexa Ready</div>
+                    </div>
+                </div>
+                <div class="prod-row reverse">
+                    <div class="pr-text">
+                        <span class="pr-tag">Key Features</span>
+                        <h3>Custom Routines &amp; Multi-Room Control</h3>
+                        <p>Create custom scenes triggered by a single phrase. Group rooms together — "switch off all
+                            lights" turns off every light in the house simultaneously.</p>
+                        <ul>
+                            <li>Full Google Assistant integration</li>
+                            <li>Full Amazon Alexa integration</li>
+                            <li>Custom voice routines &amp; scenes</li>
+                            <li>Multi-room voice commands</li>
+                            <li>Works with Nest Hub &amp; Echo Dot</li>
+                            <li>Offline local server fallback</li>
+                            <li>Hindi &amp; English command support</li>
+                        </ul>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/voice-hands-free.png" alt="Hands Free Home" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Voice+Hands+Free" Alt="Hands Free Home" Loading="Lazy'"this.src='https://placehold.co/700x400/1e2a32/ffffff?text=Hands+Free'>
+                        <div class="pr-img-badge">Hands Free</div>
+                        <div class="pr-img-cap">Whole-Home Hands-Free Control</div>
+                    </div>
+                </div>
+                <div class="panel-cta">
+                    <p>Works with all HOAI smart devices — lights, fans, AC, curtains, locks and more.</p>
+                    <a href="contact.html" class="btn-enquire">Get Free Quote →</a>
+                </div>
+            </div>
+
+            <!-- ══════════════════════════════════════════
+         P7 — CCTV SURVEILLANCE
+    ══════════════════════════════════════════ -->
+            <div class="prod-panel" id="p7">
+                <div class="panel-top">
+                    <span class="p-label">CCTV &amp; Security</span>
+                    <h2>Comprehensive Security for<br>Every Space</h2>
+                    <div class="p-divider"></div>
+                    <p class="p-lead">HOAI's CP PLUS CCTV surveillance systems provide cutting-edge technology
+                        integrated seamlessly with your smart home. Monitor your premises in real-time from anywhere in
+                        the world.</p>
+                </div>
+                <div class="prod-row">
+                    <div class="pr-text">
+                        <span class="pr-tag">Overview</span>
+                        <h3>CP PLUS Dome &amp; Bullet Cameras</h3>
+                        <p>Our systems feature HD cameras with AI-powered motion detection, continuous night vision,
+                            cloud storage and instant alert notifications — giving you complete peace of mind.</p>
+                        <p>From compact dome cameras for indoor use to weatherproof bullet cameras for outdoor
+                            perimeters — the right camera for every angle.</p>
+                        <div class="pr-stats">
+                            <div class="pr-stat"><strong>HD</strong><span>Resolution</span></div>
+                            <div class="pr-stat"><strong>30m</strong><span>Night Vision</span></div>
+                            <div class="pr-stat"><strong>24/7</strong><span>Monitoring</span></div>
+                        </div>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/cctv-dome.png" alt="CP PLUS Dome Camera" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Cctv+Dome" Alt="Cp Plus Dome Camera" Loading="Lazy'"this.src='https://placehold.co/700x400/2C363F/E60000?text=Dome+Camera'>
+                        <div class="pr-img-badge">CP PLUS</div>
+                        <div class="pr-img-cap">CP PLUS Dome CCTV Camera — Indoor</div>
+                    </div>
+                </div>
+                <div class="prod-row reverse">
+                    <div class="pr-text">
+                        <span class="pr-tag">Key Features</span>
+                        <h3>AI Motion Detection &amp; Remote View</h3>
+                        <p>Get instant alerts on your phone when movement is detected in any zone. Watch live footage
+                            from anywhere. Store up to 4TB of continuous recording on local DVR/NVR.</p>
+                        <ul>
+                            <li>Dome, Bullet, IP &amp; Wireless cameras</li>
+                            <li>2MP, 4MP &amp; 8MP resolution options</li>
+                            <li>HD night vision up to 30 metres</li>
+                            <li>AI motion detection &amp; instant alerts</li>
+                            <li>Remote live view on mobile app</li>
+                            <li>DVR/NVR with 1TB–4TB storage</li>
+                            <li>IP66 weatherproof outdoor models</li>
+                        </ul>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/cctv-night-vision.png" alt="CCTV Night Vision" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Cctv+Night+Vision" Alt="Cctv Night Vision" Loading="Lazy'"this.src='https://placehold.co/700x400/1e2a32/ffffff?text=Night+Vision'>
+                        <div class="pr-img-badge">Night Vision</div>
+                        <div class="pr-img-cap">HD Night Vision — Outdoor Bullet Camera</div>
+                    </div>
+                </div>
+                <div class="panel-cta">
+                    <p>Professional installation across Kadapa, Tirupati, Vizag, Hyderabad &amp; more.</p>
+                    <a href="cctv-security.html" class="btn-enquire">View CCTV Page →</a>
+                </div>
+            </div>
+
+            <!-- ══════════════════════════════════════════
+         P8 — GATE AUTOMATION
+    ══════════════════════════════════════════ -->
+            <div class="prod-panel" id="p8">
+                <div class="panel-top">
+                    <span class="p-label">Gate Automation</span>
+                    <h2>Automatic Gates for<br>Effortless, Safe Entry</h2>
+                    <div class="p-divider"></div>
+                    <p class="p-lead">Drive in and your gate opens automatically. Walk through and it locks behind you.
+                        HOAI Gate Automation makes compound entry hands-free, safe and fully remote-controlled.</p>
+                </div>
+                <div class="prod-row">
+                    <div class="pr-text">
+                        <span class="pr-tag">Overview</span>
+                        <h3>Sliding, Swing &amp; Boom Barrier Motors</h3>
+                        <p>HOAI supports all gate types — sliding, swing and boom barrier — with powerful motors that
+                            handle gates up to 500kg. Vehicle loop sensors detect approaching cars and open
+                            automatically.</p>
+                        <p>Safety sensors scan for obstacles and immediately reverse if a person or pet is in the path
+                            of the closing gate.</p>
+                        <div class="pr-stats">
+                            <div class="pr-stat"><strong>500kg</strong><span>Capacity</span></div>
+                            <div class="pr-stat"><strong>3</strong><span>Gate Types</span></div>
+                            <div class="pr-stat"><strong>Auto</strong><span>Safe Lock</span></div>
+                        </div>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/gate-motor.png" alt="Gate Motor" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Gate+Motor" Alt="Gate Motor" Loading="Lazy'"this.src='https://placehold.co/700x400/2C363F/E60000?text=Gate+Motor'>
+                        <div class="pr-img-badge">Auto Gate</div>
+                        <div class="pr-img-cap">Sliding Gate Motor with Safety Sensors</div>
+                    </div>
+                </div>
+                <div class="prod-row reverse">
+                    <div class="pr-text">
+                        <span class="pr-tag">Key Features</span>
+                        <h3>RFID, App Control &amp; Battery Backup</h3>
+                        <p>Grant access via RFID card, remote control, app or vehicle sensor. Even during a power cut,
+                            battery backup keeps your gate operational for hours.</p>
+                        <ul>
+                            <li>Sliding, swing &amp; boom barrier support</li>
+                            <li>Remote &amp; mobile app control</li>
+                            <li>Vehicle loop sensor for auto-open</li>
+                            <li>RFID card &amp; fob access</li>
+                            <li>Obstacle safety sensors — child safe</li>
+                            <li>Auto-lock after closing</li>
+                            <li>Battery backup during power cuts</li>
+                        </ul>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/gate-app.png" alt="Gate App Control" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/E60000/ffffff?text=Gate+App" Alt="Gate App Control" Loading="Lazy'"this.src='https://placehold.co/700x400/1e2a32/ffffff?text=Gate+Remote'>
+                        <div class="pr-img-badge">Remote Control</div>
+                        <div class="pr-img-cap">RFID &amp; App Remote Gate Control</div>
+                    </div>
+                </div>
+                <div class="panel-cta">
+                    <p>Ideal for villas, gated communities, commercial premises and apartment complexes.</p>
+                    <a href="cctv-security.html" class="btn-enquire">View Security Page →</a>
+                </div>
+            </div>
+
+            <!-- ══════════════════════════════════════════
+         P9 — HOME THEATRE
+    ══════════════════════════════════════════ -->
+            <div class="prod-panel" id="p9">
+                <div class="panel-top">
+                    <span class="p-label">Home Theatre</span>
+                    <h2>Your Private Cinema,<br>Powered by AI</h2>
+                    <div class="p-divider"></div>
+                    <p class="p-lead">HOAI Home Theatre integrates 4K projection, Dolby Atmos audio, smart lighting and
+                        motorised curtains into one AI-controlled experience — one tap and you're in cinema mode.</p>
+                </div>
+                <div class="prod-row">
+                    <div class="pr-text">
+                        <span class="pr-tag">Overview</span>
+                        <h3>4K Projection &amp; Dolby Atmos Sound</h3>
+                        <p>From the moment you press "Movie Mode" — lights dim to 10%, curtains glide shut, the
+                            projector powers on and the sound system fills the room with Dolby Atmos audio. All
+                            automatically.</p>
+                        <p>Custom acoustic wall panels and tiered seating design make your home theatre rival any
+                            commercial cinema.</p>
+                        <div class="pr-stats">
+                            <div class="pr-stat"><strong>4K</strong><span>Projection</span></div>
+                            <div class="pr-stat"><strong>Atmos</strong><span>Surround</span></div>
+                            <div class="pr-stat"><strong>1-Tap</strong><span>Cinema Mode</span></div>
+                        </div>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/theater-room.png" alt="Home Theatre Room" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Theater+Room" Alt="Home Theatre Room" Loading="Lazy'"this.src='https://placehold.co/700x400/2C363F/E60000?text=Home+Theatre'>
+                        <div class="pr-img-badge">Cinema AI</div>
+                        <div class="pr-img-cap">Immersive AI-Controlled Theatre Room</div>
+                    </div>
+                </div>
+                <div class="prod-row reverse">
+                    <div class="pr-text">
+                        <span class="pr-tag">Key Features</span>
+                        <h3>Integrated AV, Lighting &amp; Climate</h3>
+                        <p>Control your entire theatre room from one app or voice command. HVAC integration maintains
+                            the perfect viewing temperature while acoustic panels eliminate echo and noise bleed.</p>
+                        <ul>
+                            <li>4K projector &amp; screen or OLED TV</li>
+                            <li>Dolby Atmos / 5.1 / 7.1 surround sound</li>
+                            <li>One-touch scene — lights, curtains, AV</li>
+                            <li>Voice &amp; app control of full AV system</li>
+                            <li>Acoustic treatment wall panels</li>
+                            <li>Custom tiered seating design</li>
+                            <li>HVAC &amp; air quality integration</li>
+                        </ul>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/smart-lights_3.jpeg" alt="AV Control" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Smart+Lights" Alt="Av Control" Loading="Lazy'"this.src='https://placehold.co/700x400/1e2a32/ffffff?text=AV+Control'>
+                        <div class="pr-img-badge">One Touch</div>
+                        <div class="pr-img-cap">Single-Touch Complete Scene Control</div>
+                    </div>
+                </div>
+                <div class="panel-cta">
+                    <p>Fully custom designed for your space — every HOAI theatre is unique.</p>
+                    <a href="home-theater.html" class="btn-enquire">View Theatre Page →</a>
+                </div>
+            </div>
+
+            <!-- ══════════════════════════════════════════
+         P10 — STAIRCASE SENSOR
+    ══════════════════════════════════════════ -->
+            <div class="prod-panel" id="p10">
+                <div class="panel-top">
+                    <span class="p-label">Staircase Sensor</span>
+                    <h2>Motion-Triggered Stairs —<br>Safe, Smart &amp; Stunning</h2>
+                    <div class="p-divider"></div>
+                    <p class="p-lead">HOAI Staircase Sensors light up each step as you walk — automatically activating
+                        only in darkness and switching off after you pass. Safe for children, elegant for your home.</p>
+                </div>
+                <div class="prod-row">
+                    <div class="pr-text">
+                        <span class="pr-tag">Overview</span>
+                        <h3>Auto-Activated Sequential Step Lighting</h3>
+                        <p>PIR sensors detect your presence and trigger sequential step lighting from bottom to top —
+                            like a wave of light guiding your way. The ambient light sensor ensures it only activates
+                            when it's dark.</p>
+                        <p>Saves up to 80% energy compared to always-on staircase lighting, with zero manual switches
+                            needed.</p>
+                        <div class="pr-stats">
+                            <div class="pr-stat"><strong>80%</strong><span>Energy Save</span></div>
+                            <div class="pr-stat"><strong>5m</strong><span>PIR Range</span></div>
+                            <div class="pr-stat"><strong>Auto</strong><span>Dark Mode</span></div>
+                        </div>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/staircase-sensor_2.png" alt="Staircase Sensor" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Staircase+Sensor" Alt="Staircase Sensor" Loading="Lazy'"this.src='https://placehold.co/700x400/2C363F/E60000?text=Staircase+Sensor'>
+                        <div class="pr-img-badge">Auto Sensor</div>
+                        <div class="pr-img-cap">Motion-Triggered Staircase Lighting</div>
+                    </div>
+                </div>
+                <div class="prod-row reverse">
+                    <div class="pr-text">
+                        <span class="pr-tag">Key Features</span>
+                        <h3>LED Strip or Spotlight Compatible</h3>
+                        <p>Works with any LED step lighting — strips, spotlights or recessed tread lights. Adjustable
+                            auto-off delay from 10 seconds to 5 minutes. Retrofit installation with no new wiring.</p>
+                        <ul>
+                            <li>PIR motion sensor — 5m detection range</li>
+                            <li>Sequential step activation wave effect</li>
+                            <li>Adjustable auto-off (10 sec – 5 min)</li>
+                            <li>Ambient sensor — dark activation only</li>
+                            <li>LED strip &amp; spotlight compatible</li>
+                            <li>No new wiring for retrofit</li>
+                            <li>Integrates with HOAI scene system</li>
+                        </ul>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/staircase-sensor_2.png" alt="LED Steps" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Staircase+Sensor" Alt="Led Steps" Loading="Lazy'"this.src='https://placehold.co/700x400/1e2a32/ffffff?text=LED+Steps'>
+                        <div class="pr-img-badge">Sequential</div>
+                        <div class="pr-img-cap">Sequential LED Step Illumination</div>
+                    </div>
+                </div>
+                <div class="panel-cta">
+                    <p>Enhances safety and aesthetics — homes, offices, hotels and commercial staircases.</p>
+                    <a href="contact.html" class="btn-enquire">Get Free Quote →</a>
+                </div>
+            </div>
+
+            <!-- ══════════════════════════════════════════
+         P11 — WATER AUTOMATION
+    ══════════════════════════════════════════ -->
+            <div class="prod-panel" id="p11">
+                <div class="panel-top">
+                    <span class="p-label">Water Automation</span>
+                    <h2>Smart Pump Control &amp;<br>Zero Overflow — Ever</h2>
+                    <div class="p-divider"></div>
+                    <p class="p-lead">HOAI Water Automation monitors your tank levels 24/7 and controls your pump
+                        automatically — preventing overflow, dry running and wasted water with zero manual intervention.
+                    </p>
+                </div>
+                <div class="prod-row">
+                    <div class="pr-text">
+                        <span class="pr-tag">Overview</span>
+                        <h3>Automatic Pump Control System</h3>
+                        <p>Ultrasonic sensors measure tank levels in real time and send the data to your phone. The pump
+                            starts when the tank drops to 20% and stops automatically at 100% — preventing overflow
+                            completely.</p>
+                        <p>Dry-run protection detects if the source tank is empty and shuts the pump down before it
+                            burns out.</p>
+                        <div class="pr-stats">
+                            <div class="pr-stat"><strong>30%</strong><span>Water Saved</span></div>
+                            <div class="pr-stat"><strong>0</strong><span>Overflow Risk</span></div>
+                            <div class="pr-stat"><strong>24/7</strong><span>Monitoring</span></div>
+                        </div>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/water-automation_3.png" alt="Pump Controller" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Water+Automation" Alt="Pump Controller" Loading="Lazy'"this.src='https://placehold.co/700x400/2C363F/E60000?text=Pump+Controller'>
+                        <div class="pr-img-badge">Smart Water</div>
+                        <div class="pr-img-cap">Smart Auto Pump Controller Unit</div>
+                    </div>
+                </div>
+                <div class="prod-row reverse">
+                    <div class="pr-text">
+                        <span class="pr-tag">Key Features</span>
+                        <h3>Real-Time Tank Level &amp; Alerts</h3>
+                        <p>Watch your tank level live on the app — get notified when it's low and track daily water
+                            usage to detect leaks. Supports single and three-phase motors up to 5HP.</p>
+                        <ul>
+                            <li>Auto pump ON/OFF by tank level</li>
+                            <li>Overflow protection — cuts at 100%</li>
+                            <li>Dry-run protection — cuts if source empty</li>
+                            <li>Real-time tank level on mobile app</li>
+                            <li>Manual override via app &amp; button</li>
+                            <li>SMS &amp; app low water alerts</li>
+                            <li>Single &amp; three-phase motor support</li>
+                        </ul>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/water-automation_3.png" alt="Tank Monitor" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Water+Automation" Alt="Tank Monitor" Loading="Lazy'"this.src='https://placehold.co/700x400/1e2a32/ffffff?text=Tank+Level+App'>
+                        <div class="pr-img-badge">Live Monitor</div>
+                        <div class="pr-img-cap">Real-Time Tank Level on Mobile App</div>
+                    </div>
+                </div>
+                <div class="panel-cta">
+                    <p>Saves up to 30% water annually. Extends pump motor life significantly.</p>
+                    <a href="contact.html" class="btn-enquire">Get Free Quote →</a>
+                </div>
+            </div>
+
+            <!-- ══════════════════════════════════════════
+         P12 — MOTION SENSORS
+    ══════════════════════════════════════════ -->
+            <div class="prod-panel" id="p12">
+                <div class="panel-top">
+                    <span class="p-label">Motion Sensors</span>
+                    <h2>Detect Movement, Trigger<br>Action Instantly</h2>
+                    <div class="p-divider"></div>
+                    <p class="p-lead">HOAI PIR Motion Sensors detect movement across wide zones and instantly trigger
+                        lights, cameras or alarms — making your home smarter and more secure simultaneously.</p>
+                </div>
+                <div class="prod-row">
+                    <div class="pr-text">
+                        <span class="pr-tag">Overview</span>
+                        <h3>120° Wide-Angle PIR Detection</h3>
+                        <p>With a 120° detection angle and range up to 12 metres, HOAI sensors cover entire rooms with a
+                            single unit. Dual-technology models eliminate false alarms from pets while remaining fully
+                            responsive to human movement.</p>
+                        <p>Ideal for corridors, car porches, gardens and security zones throughout your property.</p>
+                        <div class="pr-stats">
+                            <div class="pr-stat"><strong>120°</strong><span>Detection</span></div>
+                            <div class="pr-stat"><strong>12m</strong><span>Range</span></div>
+                            <div class="pr-stat"><strong>0</strong><span>False Alerts</span></div>
+                        </div>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/motion-sensors_2.png" alt="PIR Motion Sensor" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Motion+Sensors" Alt="Pir Motion Sensor" Loading="Lazy'"this.src='https://placehold.co/700x400/2C363F/E60000?text=PIR+Sensor'>
+                        <div class="pr-img-badge">PIR Sensor</div>
+                        <div class="pr-img-cap">Wide-Angle PIR Motion Detector</div>
+                    </div>
+                </div>
+                <div class="prod-row reverse">
+                    <div class="pr-text">
+                        <span class="pr-tag">Key Features</span>
+                        <h3>Triggers Lights, Cameras &amp; Alarms</h3>
+                        <p>Connect motion sensors to your smart lights, CCTV cameras and alarms. When motion is
+                            detected, lights turn on, cameras start recording and you get an instant alert — all
+                            simultaneously.</p>
+                        <ul>
+                            <li>120° wide-angle PIR detection</li>
+                            <li>Detection range up to 12 metres</li>
+                            <li>Triggers lights, cameras &amp; sirens</li>
+                            <li>Instant mobile push notifications</li>
+                            <li>Pet-immune models (up to 25kg)</li>
+                            <li>Battery &amp; wired versions available</li>
+                            <li>Full HOAI ecosystem integration</li>
+                        </ul>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/motion-sensors_2.png" alt="Motion Alert" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Motion+Sensors" Alt="Motion Alert" Loading="Lazy'"this.src='https://placehold.co/700x400/1e2a32/ffffff?text=Motion+Alert'>
+                        <div class="pr-img-badge">Instant Alert</div>
+                        <div class="pr-img-cap">Instant Mobile Motion Alert System</div>
+                    </div>
+                </div>
+                <div class="panel-cta">
+                    <p>Combine with CCTV and smart lights for a complete perimeter security solution.</p>
+                    <a href="contact.html" class="btn-enquire">Get Free Quote →</a>
+                </div>
+            </div>
+
+            <!-- ══════════════════════════════════════════
+         P13 — SMART HOTEL
+    ══════════════════════════════════════════ -->
+            <div class="prod-panel" id="p13">
+                <div class="panel-top">
+                    <span class="p-label">Smart Hotel</span>
+                    <h2>Luxury Guest Experience<br>Powered by AI Automation</h2>
+                    <div class="p-divider"></div>
+                    <p class="p-lead">HOAI Smart Hotel transforms every guest room into an intelligent, personalised
+                        space — key card access, voice-controlled comfort and centralised energy management for property
+                        owners.</p>
+                </div>
+                <div class="prod-row">
+                    <div class="pr-text">
+                        <span class="pr-tag">Overview</span>
+                        <h3>Full Guest Room Automation System</h3>
+                        <p>From the moment a guest taps their RFID key card, the room comes alive — lights set to
+                            welcome scene, AC adjusts to preferred temperature, curtains open to the right position.</p>
+                        <p>When the guest leaves and removes the key card, the room enters energy-save mode
+                            automatically — cutting power consumption by up to 40%.</p>
+                        <div class="pr-stats">
+                            <div class="pr-stat"><strong>40%</strong><span>Energy Save</span></div>
+                            <div class="pr-stat"><strong>RFID</strong><span>Key Access</span></div>
+                            <div class="pr-stat"><strong>24/7</strong><span>Central View</span></div>
+                        </div>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/hotel-room.png" alt="Smart Hotel Room" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Hotel+Room" Alt="Smart Hotel Room" Loading="Lazy'"this.src='https://placehold.co/700x400/2C363F/E60000?text=Smart+Hotel'>
+                        <div class="pr-img-badge">Hospitality</div>
+                        <div class="pr-img-cap">Full Guest Room Automation</div>
+                    </div>
+                </div>
+                <div class="prod-row reverse">
+                    <div class="pr-text">
+                        <span class="pr-tag">Key Features</span>
+                        <h3>Central Dashboard &amp; Guest App</h3>
+                        <p>Hotel management views all rooms from a single dashboard — occupancy, energy use, DND status
+                            and maintenance alerts. Guests personalise their experience through a dedicated app.</p>
+                        <ul>
+                            <li>RFID key card door access</li>
+                            <li>Guest room touch &amp; voice control panel</li>
+                            <li>HVAC, lighting &amp; curtain automation</li>
+                            <li>DND / Make My Room indicator</li>
+                            <li>Auto energy-save when room vacant</li>
+                            <li>Central management dashboard</li>
+                            <li>Guest app for personalised settings</li>
+                        </ul>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/smart-hotel_2.jpg" alt="Hotel Dashboard" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Smart+Hotel" Alt="Hotel Dashboard" Loading="Lazy'"this.src='https://placehold.co/700x400/1e2a32/ffffff?text=Hotel+Dashboard'>
+                        <div class="pr-img-badge">Dashboard</div>
+                        <div class="pr-img-cap">Centralised Hotel Management View</div>
+                    </div>
+                </div>
+                <div class="panel-cta">
+                    <p>Trusted by hotels across Andhra Pradesh and Telangana. Custom packages available.</p>
+                    <a href="smart-hotels.html" class="btn-enquire">View Hotel Page →</a>
+                </div>
+            </div>
+
+            <!-- ══════════════════════════════════════════
+         P14 — ENERGY MONITOR
+    ══════════════════════════════════════════ -->
+            <div class="prod-panel" id="p14">
+                <div class="panel-top">
+                    <span class="p-label">Energy Monitor</span>
+                    <h2>See Exactly Where Your<br>Electricity Bill Is Going</h2>
+                    <div class="p-divider"></div>
+                    <p class="p-lead">HOAI Energy Monitor tracks power consumption at the device level in real time —
+                        helping you cut electricity bills by 25–40% through AI-driven scheduling and smart usage alerts.
+                    </p>
+                </div>
+                <div class="prod-row">
+                    <div class="pr-text">
+                        <span class="pr-tag">Overview</span>
+                        <h3>Real-Time Device-Level Power Tracking</h3>
+                        <p>See how many watts your AC, geyser, refrigerator and other appliances are using right now.
+                            Identify the biggest energy consumers and set automated schedules to minimise their usage.
+                        </p>
+                        <p>AI analytics compare your usage to previous months and suggest practical changes that reduce
+                            your bill.</p>
+                        <div class="pr-stats">
+                            <div class="pr-stat"><strong>40%</strong><span>Bill Reduction</span></div>
+                            <div class="pr-stat"><strong>Live</strong><span>Real Time</span></div>
+                            <div class="pr-stat"><strong>AI</strong><span>Suggestions</span></div>
+                        </div>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/energy-monitor_3.png" alt="Energy Monitor" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Energy+Monitor" Alt="Energy Monitor" Loading="Lazy'"this.src='https://placehold.co/700x400/2C363F/E60000?text=Energy+Monitor'>
+                        <div class="pr-img-badge">Energy AI</div>
+                        <div class="pr-img-cap">Real-Time Power Consumption Tracker</div>
+                    </div>
+                </div>
+                <div class="prod-row reverse">
+                    <div class="pr-text">
+                        <span class="pr-tag">Key Features</span>
+                        <h3>Bill Estimation, Reports &amp; Solar Ready</h3>
+                        <p>Get an estimated electricity bill before the month ends and take corrective action. Full
+                            historical reports and solar panel output integration available for sustainable homes.</p>
+                        <ul>
+                            <li>Real-time watts per device</li>
+                            <li>Device-level energy breakdown</li>
+                            <li>Monthly bill estimation</li>
+                            <li>High consumption push alerts</li>
+                            <li>AI energy-saving suggestions</li>
+                            <li>Historical usage graphs &amp; PDF reports</li>
+                            <li>Solar integration compatible</li>
+                        </ul>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/energy-monitor_3.png" alt="Energy Dashboard" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Energy+Monitor" Alt="Energy Dashboard" Loading="Lazy'"this.src='https://placehold.co/700x400/1e2a32/ffffff?text=AI+Dashboard'>
+                        <div class="pr-img-badge">AI Dashboard</div>
+                        <div class="pr-img-cap">AI-Powered Energy Usage Dashboard</div>
+                    </div>
+                </div>
+                <div class="panel-cta">
+                    <p>Average households save 25–40% on their electricity bill within the first month.</p>
+                    <a href="contact.html" class="btn-enquire">Get Free Quote →</a>
+                </div>
+            </div>
+
+            <!-- ══════════════════════════════════════════
+         P15 — FAN AUTOMATION
+    ══════════════════════════════════════════ -->
+            <div class="prod-panel" id="p15">
+                <div class="panel-top">
+                    <span class="p-label">Fan Automation</span>
+                    <h2>Smart Fan Speed Control —<br>App, Voice &amp; Auto</h2>
+                    <div class="p-divider"></div>
+                    <p class="p-lead">HOAI Fan Automation gives you precise 5-step speed control of any ceiling fan via
+                        app, voice or temperature sensor — with silent TRIAC technology and no buzz or flicker.</p>
+                </div>
+                <div class="prod-row">
+                    <div class="pr-text">
+                        <span class="pr-tag">Overview</span>
+                        <h3>Smart Speed Control Module</h3>
+                        <p>A compact TRIAC module replaces your regulator and connects your fan to the HOAI ecosystem —
+                            no fan replacement needed. Works with all ceiling fan types including BLDC fans.</p>
+                        <p>Temperature sensors can automatically increase or decrease fan speed based on room
+                            temperature, keeping you comfortable without any manual adjustment.</p>
+                        <div class="pr-stats">
+                            <div class="pr-stat"><strong>5</strong><span>Speed Steps</span></div>
+                            <div class="pr-stat"><strong>Silent</strong><span>No Buzz</span></div>
+                            <div class="pr-stat"><strong>All</strong><span>Fan Types</span></div>
+                        </div>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/smart-fan_3.png" alt="Smart Fan Controller" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Smart+Fan" Alt="Smart Fan Controller" Loading="Lazy'"this.src='https://placehold.co/700x400/2C363F/E60000?text=Smart+Fan'>
+                        <div class="pr-img-badge">Fan Control</div>
+                        <div class="pr-img-cap">Smart Fan Speed Controller Module</div>
+                    </div>
+                </div>
+                <div class="prod-row reverse">
+                    <div class="pr-text">
+                        <span class="pr-tag">Key Features</span>
+                        <h3>Temperature Auto &amp; Scene Integration</h3>
+                        <p>Set a "Good Night" scene that dims lights to 20% and slows the fan to speed 2 automatically.
+                            Or let the temperature sensor handle it — fan speeds up when it gets warm, slows when it
+                            cools.</p>
+                        <ul>
+                            <li>5-step smart speed control</li>
+                            <li>App, voice &amp; touch panel control</li>
+                            <li>Temperature-based auto speed</li>
+                            <li>Sleep timer &amp; daily scheduling</li>
+                            <li>Works with all ceiling fan types</li>
+                            <li>Silent TRIAC — no buzz or flicker</li>
+                            <li>Scene integration with smart lighting</li>
+                        </ul>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/smart-fan_3.png" alt="Fan App Voice" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Smart+Fan" Alt="Fan App Voice" Loading="Lazy'"this.src='https://placehold.co/700x400/1e2a32/ffffff?text=Fan+Voice+Control'>
+                        <div class="pr-img-badge">Voice Ready</div>
+                        <div class="pr-img-cap">Voice &amp; App Fan Speed Control</div>
+                    </div>
+                </div>
+                <div class="panel-cta">
+                    <p>Retrofit installation in minutes — no fan replacement needed, works with any existing fan.</p>
+                    <a href="contact.html" class="btn-enquire">Get Free Quote →</a>
+                </div>
+            </div>
+
+            <!-- ══════════════════════════════════════════
+         P16 — AC AUTOMATION
+    ══════════════════════════════════════════ -->
+            <div class="prod-panel" id="p16">
+                <div class="panel-top">
+                    <span class="p-label">AC Automation</span>
+                    <h2>Make Any AC Smart —<br>No Replacement Needed</h2>
+                    <div class="p-divider"></div>
+                    <p class="p-lead">HOAI's IR-based AC automation module works with any air conditioner brand —
+                        Daikin, Voltas, LG, Samsung, Hitachi — adding app control, voice commands and AI scheduling
+                        without replacing your AC.</p>
+                </div>
+                <div class="prod-row">
+                    <div class="pr-text">
+                        <span class="pr-tag">Overview</span>
+                        <h3>Universal IR-Based AC Controller</h3>
+                        <p>A small IR blaster plugs into your wall and takes over your existing AC remote — giving you
+                            full app and voice control immediately. Geo-fencing turns the AC on automatically as you
+                            approach home.</p>
+                        <p>Night mode gradually increases temperature by 1°C per hour after midnight — saving energy
+                            while keeping you comfortable through your sleep.</p>
+                        <div class="pr-stats">
+                            <div class="pr-stat"><strong>30%</strong><span>Energy Save</span></div>
+                            <div class="pr-stat"><strong>Any</strong><span>AC Brand</span></div>
+                            <div class="pr-stat"><strong>Geo</strong><span>Fencing</span></div>
+                        </div>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/smart-ac_3.png" alt="Smart AC Controller" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Smart+Ac" Alt="Smart Ac Controller" Loading="Lazy'"this.src='https://placehold.co/700x400/2C363F/E60000?text=Smart+AC'>
+                        <div class="pr-img-badge">Smart AC</div>
+                        <div class="pr-img-cap">IR-Based Universal Smart AC Controller</div>
+                    </div>
+                </div>
+                <div class="prod-row reverse">
+                    <div class="pr-text">
+                        <span class="pr-tag">Key Features</span>
+                        <h3>Schedule, Geo-Fence &amp; Night Mode</h3>
+                        <p>Schedule AC to turn on 20 minutes before you wake up. Set it to switch off when the room is
+                            empty. Monitor how much electricity your AC uses each day via the energy dashboard.</p>
+                        <ul>
+                            <li>Works with any IR AC brand</li>
+                            <li>App &amp; voice control (Alexa/Google)</li>
+                            <li>Auto temperature scheduling</li>
+                            <li>Geo-fencing — AC on when you arrive</li>
+                            <li>Energy consumption monitoring</li>
+                            <li>Night mode — gradual temperature rise</li>
+                            <li>Occupancy sensor integration</li>
+                        </ul>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/smart-ac_3.png" alt="AC Schedule App" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Smart+Ac" Alt="Ac Schedule App" Loading="Lazy'"this.src='https://placehold.co/700x400/1e2a32/ffffff?text=AC+Schedule'>
+                        <div class="pr-img-badge">Auto Schedule</div>
+                        <div class="pr-img-cap">Auto Temperature &amp; Energy Scheduling</div>
+                    </div>
+                </div>
+                <div class="panel-cta">
+                    <p>Compatible with split AC, cassette AC and window AC. Reduces AC energy by up to 30%.</p>
+                    <a href="contact.html" class="btn-enquire">Get Free Quote →</a>
+                </div>
+            </div>
+
+            <!-- ══════════════════════════════════════════
+         P17 — SMART INTERCOM
+    ══════════════════════════════════════════ -->
+            <div class="prod-panel" id="p17">
+                <div class="panel-top">
+                    <span class="p-label">Smart Intercom</span>
+                    <h2>HD Video Intercom for<br>Villas &amp; Apartments</h2>
+                    <div class="p-divider"></div>
+                    <p class="p-lead">HOAI Smart Intercom connects entrance gates, lobby panels and individual units
+                        with HD video and two-way audio — with remote door unlock from your mobile phone from anywhere
+                        in the world.</p>
+                </div>
+                <div class="prod-row">
+                    <div class="pr-text">
+                        <span class="pr-tag">Overview</span>
+                        <h3>HD Video Communication System</h3>
+                        <p>The outdoor panel features a 1080p wide-angle camera, infrared night vision and a
+                            weatherproof IP65 housing. Visitors press the bell and you see and hear them instantly on
+                            your phone or indoor monitor.</p>
+                        <p>With a tap, you unlock the door remotely — whether you're in the kitchen or in a different
+                            city.</p>
+                        <div class="pr-stats">
+                            <div class="pr-stat"><strong>1080p</strong><span>HD Video</span></div>
+                            <div class="pr-stat"><strong>32</strong><span>Units Max</span></div>
+                            <div class="pr-stat"><strong>IP65</strong><span>Weatherproof</span></div>
+                        </div>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/smart-intercom_2.png" alt="Intercom Panel" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Smart+Intercom" Alt="Intercom Panel" Loading="Lazy'"this.src='https://placehold.co/700x400/2C363F/E60000?text=Intercom+Panel'>
+                        <div class="pr-img-badge">HD Intercom</div>
+                        <div class="pr-img-cap">HD Video Intercom Outdoor Panel</div>
+                    </div>
+                </div>
+                <div class="prod-row reverse">
+                    <div class="pr-text">
+                        <span class="pr-tag">Key Features</span>
+                        <h3>Remote Unlock &amp; Visitor Log</h3>
+                        <p>Every visitor is captured on camera and logged with a timestamp. View the history anytime. Up
+                            to 32 indoor units on one system — scalable to 100+ for large apartment complexes.</p>
+                        <ul>
+                            <li>1080p HD video communication</li>
+                            <li>Two-way audio — crystal clear</li>
+                            <li>Remote door unlock from phone</li>
+                            <li>Up to 32 indoor units per system</li>
+                            <li>Visitor image capture &amp; access log</li>
+                            <li>Night vision on outdoor panel</li>
+                            <li>IP65 weatherproof outdoor unit</li>
+                        </ul>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/smart-intercom_2.png" alt="Indoor Monitor" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Smart+Intercom" Alt="Indoor Monitor" Loading="Lazy'"this.src='https://placehold.co/700x400/1e2a32/ffffff?text=Indoor+Monitor'>
+                        <div class="pr-img-badge">Indoor Monitor</div>
+                        <div class="pr-img-cap">Indoor Monitor &amp; Mobile App View</div>
+                    </div>
+                </div>
+                <div class="panel-cta">
+                    <p>Scalable from a 2-unit villa to a 100+ unit apartment complex. Custom packages available.</p>
+                    <a href="contact.html" class="btn-enquire">Get Free Quote →</a>
+                </div>
+            </div>
+
+            <!-- ══════════════════════════════════════════
+         P18 — OUTDOOR LIGHTING
+    ══════════════════════════════════════════ -->
+            <div class="prod-panel" id="p18">
+                <div class="panel-top">
+                    <span class="p-label">Outdoor Lighting</span>
+                    <h2>AI-Scheduled Garden &amp;<br>Facade Lighting</h2>
+                    <div class="p-divider"></div>
+                    <p class="p-lead">HOAI Outdoor Lighting transforms your garden, driveway, facade and boundary walls
+                        with auto-scheduled RGBW LEDs — triggered by sunset, motion sensors or a single app tap.</p>
+                </div>
+                <div class="prod-row">
+                    <div class="pr-text">
+                        <span class="pr-tag">Overview</span>
+                        <h3>Auto Sunset/Sunrise Scheduling</h3>
+                        <p>Your outdoor lights turn on at sunset and off at sunrise automatically — no manual switching
+                            ever. Weather-aware sensors adjust brightness based on cloud cover and ambient light levels.
+                        </p>
+                        <p>IP67 waterproof fixtures survive monsoon, dust and extreme heat — built for Indian outdoor
+                            conditions.</p>
+                        <div class="pr-stats">
+                            <div class="pr-stat"><strong>IP67</strong><span>Waterproof</span></div>
+                            <div class="pr-stat"><strong>Auto</strong><span>Sunset/Sunrise</span></div>
+                            <div class="pr-stat"><strong>RGBW</strong><span>Colour LED</span></div>
+                        </div>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/outdoor-lighting_2.png" alt="Garden Lighting" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Outdoor+Lighting" Alt="Garden Lighting" Loading="Lazy'"this.src='https://placehold.co/700x400/2C363F/E60000?text=Garden+Lights'>
+                        <div class="pr-img-badge">Outdoor AI</div>
+                        <div class="pr-img-cap">Auto-Scheduled Garden &amp; Pathway Lights</div>
+                    </div>
+                </div>
+                <div class="prod-row reverse">
+                    <div class="pr-text">
+                        <span class="pr-tag">Key Features</span>
+                        <h3>RGBW Colour, Zone Control &amp; Motion</h3>
+                        <p>Create different scenes for different zones — warm white for the garden pathway,
+                            colour-changing for the facade and bright white security lighting for the car porch
+                            triggered by motion.</p>
+                        <ul>
+                            <li>Auto sunset/sunrise scheduling</li>
+                            <li>Motion-triggered security lighting</li>
+                            <li>RGBW colour-changing LED support</li>
+                            <li>Weather-aware smart operation</li>
+                            <li>IP67 fully waterproof fixtures</li>
+                            <li>Zone-based individual scene control</li>
+                            <li>App &amp; voice controlled</li>
+                        </ul>
+                    </div>
+                    <div class="pr-img">
+                        <img src="images/outdoor-lighting_2.png" alt="Facade Lighting" loading="lazy"
+                            onerror="this.src='https://placehold.co/700x400/2C363F/E60000?text=Outdoor+Lighting" Alt="Facade Lighting" Loading="Lazy'"this.src='https://placehold.co/700x400/1e2a32/ffffff?text=Facade+Lights'>
+                        <div class="pr-img-badge">Facade</div>
+                        <div class="pr-img-cap">Facade &amp; Boundary LED Lighting</div>
+                    </div>
+                </div>
+                <div class="panel-cta">
+                    <p>Transform your garden, driveway, facade, pool area and boundary walls beautifully.</p>
+                    <a href="contact.html" class="btn-enquire">Get Free Quote →</a>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images/logo-footer.png" alt="HOAI" class="footer-logo"
+                        onerror="this.style.display='none';this.nextElementSibling.style.display='block';" />
+                    <span class="footer-logo-text" HOAI</span>
+                    <p class="footer-tagline">House of Artificial Intelligence — Making Every Home Smarter</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact</h4>
+                    <div class="footer-contact-item"><span class="ico">📞</span><a href="tel:+919390024890"
+                           >+91 93900 24890</a></div>
+                    <div class="footer-contact-item"><span class="ico">📧</span><a href="mailto:info@hoai.co.in"
+                           >info@hoai.co.in</a></div>
+                    <div class="footer-contact-item"><span class="ico">🌐</span><a href="http://www.hoai.co.in"
+                            target="_blank">www.hoai.co.in</a></div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="products.html">All Products</a></li>
+                        <li><a href="smart-hotels.html">Smart Home</a></li>
+                        <li><a href="cctv-security.html">CCTV &amp; Security</a></li>
+                        <li><a href="home-theater.html">Home Theater</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright &copy; 2025 HOAI — House of Artificial Intelligence. All rights reserved.</p>
+                <div class="footer-social">
+                    <a href="#" title="Instagram">&#x1F4F7;</a>
+                    <a href="#" title="YouTube">&#x25B6;</a>
+                    <a href="https://wa.me/919390024890" title="WhatsApp">&#x1F4AC;</a>
+                </div>
+                <a href="#">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+  <a href="https://wa.me/919390024890" class="whatsapp-btn" target="_blank" title="Chat on WhatsApp">&#x1F4AC;</a>
+  <button class="scroll-top" title="Back to top">&#8679;</button>
+
+
+
+  <script src="js/nav.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/forms.js"></script>
+  <script src="js/product.js"></script>
+  <script src="js/script.js"></script>
+   
+
+</body>
+
+</html>
