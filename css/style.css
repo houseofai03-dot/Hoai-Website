@@ -1037,6 +1037,158 @@ header {
   resize: vertical;
   min-height: 108px
 }
+/* ===================================================
+   HOAI — Custom Multiselect Dropdown Styling
+   =================================================== */
+
+/* Container Anchor */
+.custom-multiselect {
+  position: relative;
+  width: 100%;
+  font-family: inherit;
+}
+
+/* Trigger Box Header */
+.select-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  color: #f3f4f6;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+}
+
+.select-box:hover {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.select-box .arrow {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  transition: transform 0.2s ease;
+}
+
+/* Dropdown Container */
+.checkboxes-container {
+  display: none;
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  max-height: 260px;
+  overflow-y: auto;
+  background: #1e2530; /* Dark sleek background */
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+  box-shadow: 0 12px 30px -5px rgba(0, 0, 0, 0.55),
+              0 4px 10px -2px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  padding: 6px;
+}
+
+/* Active Dropdown Toggle Class */
+.checkboxes-container.show {
+  display: block !important;
+}
+
+/* Option Row Styling */
+.checkbox-option {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: flex-start !important;
+  gap: 12px !important;
+  padding: 10px 12px;
+  margin-bottom: 2px;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #e2e8f0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: background 0.15s ease;
+  user-select: none;
+}
+
+.checkbox-option:hover {
+  background: rgba(255, 255, 255, 0.07);
+  color: #ffffff;
+}
+
+/* All/Full Automation Option Styling */
+.select-all-option {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 6px;
+}
+
+.select-all-option span {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Divider Line */
+.dropdown-divider {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.12);
+  margin: 6px 0;
+}
+
+/* Custom Checkbox Design */
+.checkbox-option input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  border-radius: 4px;
+  background-color: transparent;
+  cursor: pointer;
+  display: grid;
+  place-content: center;
+  margin: 0;
+  transition: all 0.15s ease;
+  flex-shrink: 0;
+}
+
+.checkbox-option input[type="checkbox"]:hover {
+  border-color: rgba(255, 255, 255, 0.7);
+}
+
+.checkbox-option input[type="checkbox"]:checked {
+  background-color: #e60000; /* Accent red color */
+  border-color: #e60000;
+}
+
+.checkbox-option input[type="checkbox"]:checked::before {
+  content: "";
+  width: 10px;
+  height: 6px;
+  border-left: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+  transform: rotate(-45deg) translate(1px, -1px);
+}
+
+/* Scrollbar Customization */
+.checkboxes-container::-webkit-scrollbar {
+  width: 6px;
+}
+.checkboxes-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+.checkboxes-container::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 4px;
+}
+.checkboxes-container::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
 
 .btn-submit {
   width: 100%;
@@ -2326,28 +2478,50 @@ header {
   box-shadow: 0 20px 50px rgba(0, 0, 0, .5);
 }
 
+/* Container positioning */
 .branch-map {
   position: relative;
-  height: 200px;
   overflow: hidden;
 }
 
+/* Disable map dragging so the entire image acts as a clickable cover button */
 .branch-map iframe {
-  filter: invert(90%) hue-rotate(180deg);
+  pointer-events: none;
+  width: 100%;
+  height: 200px;
+  border: 0;
 }
 
-.branch-map-label {
+/* Clickable link overlay spanning the whole map */
+.branch-map-link {
   position: absolute;
-  top: 9px;
-  left: 9px;
-  background: rgba(230, 0, 0, .9);
-  color: #fff;
-  font-size: .85rem;
-  font-weight: 750;
-  padding: 10px 30px;
-  border-radius: 10px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+
+/* Red location badge styling */
+.branch-map-label {
+  display: inline-block;
+  background: #e60000;
+  color: #ffffff;
+  padding: 6px 14px;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 0.85rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  transition: all 0.2s ease;
+}
+
+/* Hover effect on badge */
+.branch-map-link:hover .branch-map-label {
+  background: #ff1a1a;
+  transform: translateY(-2px);
 }
 
 .branch-body {

@@ -433,7 +433,7 @@
   }
 }
 
-@media(max-width:380px) {
+@media(max-width:350px) {
   .slide-content h2 {
     font-size: 2rem;
     letter-spacing: 1px
